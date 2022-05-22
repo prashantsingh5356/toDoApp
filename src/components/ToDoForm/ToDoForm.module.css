@@ -1,0 +1,59 @@
+.form {
+  background-color: white;
+  width: 25%;
+  height: 60vh;
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+  padding: 2rem;
+  border-radius: 20px;
+  line-height: 50px;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.form-title__input {
+  width: 95%;
+  height: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.form-title__input:focus {
+  background-color: #f1eee9;
+}
+
+.form-description {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.form-description__input {
+  font-size: 1.5rem;
+}
+
+.form-description__input:focus {
+  background-color: #f1eee9;
+}
+
+.form-btn {
+  background-color: #242f9b;
+  width: 98%;
+  height: 50px;
+  font-size: 1.5rem;
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+}
+
+.form-btn:hover {
+  background-color: #8d95de;
+}
+
+.form-btn:active {
+  transform: scale(0.9);
+}

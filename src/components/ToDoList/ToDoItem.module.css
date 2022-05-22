@@ -1,0 +1,21 @@
+.items {
+  background-color: #38408c;
+  padding: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.items-btn {
+  width: 30px;
+  border-style: none;
+  background-color: #f24c4c;
+  color: white;
+}
+
+.items-btn:hover {
+  color: black;
+}

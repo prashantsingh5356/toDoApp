@@ -1,0 +1,36 @@
+.todo-list {
+  /* background-color: white; */
+  width: 50%;
+  position: relative;
+  left: 40rem;
+  top: -28.5rem;
+}
+
+.todo-list__header {
+  padding: 0.8rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-border {
+  width: 97%;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto;
+}
+.todo-list__items {
+  max-height: 63vh;
+  overflow-y: scroll;
+}
+
+.todo-list__items::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.todo-list__items {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
